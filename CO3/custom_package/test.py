@@ -9,7 +9,8 @@ print(Circle.area_circ(3))
 print(Cuboid.peri_cuboid(1,2,3))
 print(Cuboid.area_cuboid(1,2,3))
 print(Sphere.area_sphere(3))
-<<<<<<< HEAD
+
+
 print(Sphere.circumference_sphere(3))
 =======
 print(Sphere.circumference_sphere(3))
