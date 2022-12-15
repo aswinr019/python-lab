@@ -12,6 +12,5 @@ print(Sphere.area_sphere(3))
 
 
 print(Sphere.circumference_sphere(3))
-=======
+
 print(Sphere.circumference_sphere(3))
->>>>>>> a7fa1510b1e9a75d3cf9110dc4615a34d9d2c24e

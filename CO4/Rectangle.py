@@ -14,8 +14,13 @@ class Rectangle :
 
 
 
-rectangle1 = Rectangle(4,5)
-rectangle2 = Rectangle(10,20)
+a= int(input("Enter length of rectangle one : "))
+b= int(input("Enter breadth of rectangle one : "))
+c= int(input("Enter length of rectangle two : "))
+d= int(input("Enter breadth of rectangle two : "))
+
+rectangle1 = Rectangle(a,b)
+rectangle2 = Rectangle(c,d)
 
 area1 = Rectangle.area(rectangle1)
 area2 = Rectangle.area(rectangle2)
