@@ -3,19 +3,13 @@ import csv
 
 path = os.getcwd()
 
-header = []
-rows = []
-
 if os.path.exists(path+"/username.csv"):
     file = open(path+"/username.csv","r")
     csvreader = csv.reader(file)
-    header = next(csvreader)
+    print(next(csvreader))
     
     for row in csvreader:
-        rows.append(row)
-
-    print(header)
-    print(rows)
+        print(row)
 
     file.close()
 else:

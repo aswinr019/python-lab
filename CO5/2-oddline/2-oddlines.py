@@ -7,7 +7,7 @@ if (os.path.exists(path+"/file1.txt") and os.path.exists(path+"/file2.txt")):
     file1 = open(path+"/file1.txt","r")
     file2 = open(path+"/file2.txt","w")
     
-    count = 0 
+    count = 1  
     for line in file1:
         if(count %2 != 0):
             file2.write(line)
@@ -15,7 +15,7 @@ if (os.path.exists(path+"/file1.txt") and os.path.exists(path+"/file2.txt")):
     file1.close()
     file2.close()
 else:
-    print("Files doesn't exists")
+    print("Files doesn't exist")
 
 
 
