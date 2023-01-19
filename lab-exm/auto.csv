@@ -1,0 +1,6 @@
+INDEX,COMPANY,BODY-STYLE,WHEEL-BASE,ENGINE-TYPE,NUM_OF_CYLINDERS,HORSEPOWER,AVERAGE_MILAGE,PRICE,
+1,vw,sedan,donno,v6,6,420,13,1300000,
+2,audi,sedan,donno,v8,8,600,11,2000000,
+3,ford,truck,donno,v8,8,720,12,1700000,
+4,tesla,sedan,donno,electric,0,500,40,3200000
+5,ms,hatch-back,donno,v6,6,250,16,500000
