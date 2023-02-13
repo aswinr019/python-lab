@@ -1,7 +1,7 @@
 #From a list of integers , create a list removing even numbers
 n = int(input("How many numbers : "))
 list = []
-lis2 = []
+list2 = []
 print("Enter " , n ," numbers : ")
 for i in range(n):
     a = int(input())

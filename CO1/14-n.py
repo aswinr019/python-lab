@@ -2,4 +2,4 @@
 
 n = int (input("enter a number : "))
 result = n + n*n + n*n*n
-print("The result is : ", result)
+print(n,"+",n,"*",n,"+",n,"*",n,"*",n," is : ", result)
