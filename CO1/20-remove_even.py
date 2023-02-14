@@ -9,7 +9,7 @@ for i in range(n):
 
 print("List before removing even numbers : ",list)
 for elm in list:
-   if( elm % 2 == 0):
+   if( elm % 2 != 0):
         list2.append(elm)
 
 print("List after removing even numbers : ",list2)
