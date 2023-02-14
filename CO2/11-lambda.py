@@ -1,5 +1,5 @@
 square = lambda x : x*x
-triangle = lambda x,y : (x*y)/z
+triangle = lambda x,y : (x*y)/2
 rectangle = lambda x, y : x*y
 
 
